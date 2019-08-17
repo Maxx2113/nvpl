@@ -1,0 +1,24 @@
+spriteTypes = {	
+
+
+	SpriteType = {
+		name = "polish_emblem"
+		texturefile = "gfx/interface/goals/poland/polish_emblem.dds"			
+	}
+
+	SpriteType = {
+		name = "polish_emblem2"
+		texturefile = "gfx/interface/goals/poland/polish_emblem2.dds"			
+	}
+	
+	SpriteType = {
+		name = "polish_flag"
+		texturefile = "gfx/interface/goals/poland/polish_flag.dds"			
+	}
+	
+	SpriteType = {
+		name = "polish_monarchist"
+		texturefile = "gfx/interface/goals/poland/polish_monarchy.dds"			
+	}
+	
+}

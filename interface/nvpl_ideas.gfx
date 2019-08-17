@@ -1,0 +1,21 @@
+spriteTypes = {	
+
+	SpriteType = {
+		name = "GFX_idea_pol_gddkia"
+		texturefile = "gfx/interface/ideas/pl_gddkia.dds"
+		noOfFrames = 30
+	}
+	
+	SpriteType = {
+		name = "GFX_idea_pol_army"
+		texturefile = "gfx/interface/ideas/polish_army.dds"
+		noOfFrames = 30
+	}
+	
+	SpriteType = {
+		name = "GFX_idea_pol_krir"
+		texturefile = "gfx/interface/ideas/polish_krir.dds"
+		noOfFrames = 30
+	}
+	
+}

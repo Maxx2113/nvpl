@@ -1,0 +1,43 @@
+focus_tree = {
+
+	id = poland_focus
+	
+	country = {
+		factor = 0
+		
+		modifier = {
+			add = 20
+			original_tag = POL
+		}
+	}
+
+	default = no
+
+	focus = {
+		id = POL_Reform_the_Polish_State
+		icon = polish_emblem2
+		x = 5
+		y = 0
+		cost = 8.6
+
+		mutually_exclusive = {
+			focus = 
+		}
+
+		available = {
+			OR = {
+				has_completed_focus = POL_Election_Campaign
+				has_completed_focus = POL_Abolish_the_Sejm
+			}
+		}
+
+		completion_reward = {
+			add_political_power = 150
+		}
+		
+		ai_will_do = {
+			factor = 10
+		}
+	}
+	
+}
