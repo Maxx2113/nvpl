@@ -14,25 +14,48 @@ focus_tree = {
 	default = no
 
 	focus = {
-		id = POL_Reform_the_Polish_State
-		icon = polish_emblem2
+		id = POL_Election_Campaign
+		icon = main_election
 		x = 5
 		y = 0
 		cost = 8.6
 
 		mutually_exclusive = {
-			focus = 
+			focus = POL_Abolish_the_Sejm
 		}
 
 		available = {
-			OR = {
-				has_completed_focus = POL_Election_Campaign
-				has_completed_focus = POL_Abolish_the_Sejm
-			}
+			has_democratic_form_of_government = yes
 		}
 
 		completion_reward = {
-			add_political_power = 150
+			add_political_power = 55
+			set_country_flag = pol_election_campaign_flag
+		}
+		
+		ai_will_do = {
+			factor = 10
+		}
+	}
+	
+	focus = {
+		id = POL_Abolish_the_Sejm
+		icon = polish_emblem
+		x = 10
+		y = 0
+		cost = 8.6
+
+		mutually_exclusive = {
+			focus = POL_Election_Campaign
+		}
+
+		available = {
+			has_democratic_form_of_government = yes
+		}
+
+		completion_reward = {
+			add_political_power = 55
+			set_country_flag = pol_abolished_sejm_flag
 		}
 		
 		ai_will_do = {

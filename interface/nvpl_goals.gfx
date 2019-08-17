@@ -21,4 +21,9 @@ spriteTypes = {
 		texturefile = "gfx/interface/goals/poland/polish_monarchy.dds"			
 	}
 	
+	SpriteType = {
+		name = "main_election"
+		texturefile = "gfx/interface/goals/poland/Election.dds"			
+	}
+	
 }
